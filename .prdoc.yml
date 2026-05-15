@@ -1,0 +1,12 @@
+
+mappings:
+  - code: "**/*.js"
+    docs: "docs/components.md"
+  - code: "README.md"
+    docs: "docs/readme_updates.md"
+
+skip_patterns:
+  - "node_modules/**"
+  - "*.test.js"
+
+max_files_threshold: 10
